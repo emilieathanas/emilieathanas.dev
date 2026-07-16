@@ -3,26 +3,17 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="nav-brand">
-        <h2>My App is</h2>
-      </div>
-      <ul className="navmenu">
-        <li className="navitem">
-          <a href="/" className="navlink">
-            Home
+      <div className="nav-container">
+          <a className="nav-link" href="/projects">
+            Projects
           </a>
-        </li>
-        <li className="navitem">
-          <a href="/about" className="navlink">
-            About
+          <a className="nav-link" href="/experience">
+            Experience
           </a>
-        </li>
-        <li className="navitem">
-          <a href="/contact" className="navlink">
+          <a className="nav-link" href="/contact">
             Contact
           </a>
-        </li>
-      </ul>
+        </div>
     </nav>
   )
 }
