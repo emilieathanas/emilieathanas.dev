@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.navbar {
+  width: 70%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  position: fixed;
+  margin: 20px auto 0;
+  right: 0;
+  left: 0;
+  padding: 0;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 clamp(20px, 5vw, 50px);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 3rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-logo {
+  color: white;
+}
+
+.hamburger-container {
+  display: none;
+}
+
+@media (max-width: 881px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger-container {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: flex;
+    height: 100%;
+    padding: 0 1rem;
+  }
+
+  .mobile-nav-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .mobile-nav-link {
+    font-size: 1.25rem;
+    padding-bottom: 2rem;
+  }
+}
