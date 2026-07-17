@@ -1,10 +1,8 @@
 import './Navbar.css'
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from 'lucide-react';
+import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
+import { Menu } from 'lucide-react'
 
 export default function Navbar() {
-
-
   return (
     <nav className="navbar">
       <div className="nav-container">
