@@ -1,15 +1,14 @@
 .hero {
-    text-align: center;
-    min-height: calc(100svh - 64px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  text-align: center;
+  min-height: calc(100svh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome-heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
